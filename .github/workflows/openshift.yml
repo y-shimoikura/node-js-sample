@@ -38,7 +38,7 @@ env:
   REGISTRY: registry.redhat.io
   # ⬇️ EDIT with your registry username.
   REGISTRY_USER: clsadmin
-  REGISTRY_PASSWORD: ${{ secrets.REGISTRY_REDHAT_IO_PASSWORD }}
+  REGISTRY_PASSWORD: ${{ secrets.REGISTRY_PASSWORD }}
 
   # ⬇️ EDIT to log into your OpenShift cluster and set up the context.
   # See https://github.com/redhat-actions/oc-login#readme for how to retrieve these values.
